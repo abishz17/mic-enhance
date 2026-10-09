@@ -1,0 +1,22 @@
+# Build and tool output
+target/
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Test and benchmark audio (not redistributable; tests skip when absent)
+testdata/
+corpus/
+listen/
+
+# Downloaded model weights and isolated model environments
+models/
+*.onnx
+ml/envs/
+ml/out/
+
+# Local reports and scratch files
+eval-report.html
+learn-audio.html
+.playwright-mcp/

@@ -1,0 +1,6 @@
+# Podcast preset: like youtube, but -16 LUFS integrated (Apple Podcasts /
+# Spotify spoken-word convention), which also leaves the limiter 2 dB more
+# room so peaks are shaved less.
+
+[post.loudness]
+target_lufs = -16.0

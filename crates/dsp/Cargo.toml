@@ -1,0 +1,22 @@
+[package]
+name = "dsp"
+description = "Speech enhancement DSP: biquads, dynamics, loudness, true-peak limiting, WAV I/O"
+edition.workspace = true
+version.workspace = true
+repository.workspace = true
+
+[dependencies]
+hound.workspace = true
+rubato.workspace = true
+ebur128.workspace = true
+nnnoiseless.workspace = true
+realfft.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+toml.workspace = true
+realfft.workspace = true
+
+[lints]
+workspace = true
